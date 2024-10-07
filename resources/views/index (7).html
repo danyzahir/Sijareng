@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>SIJARENG</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .header .profile {
+            display: flex;
+            align-items: center;
+        }
+        .header .profile span {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .header .profile .profile-icon {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .nav {
+            background-color: #007bff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .nav a.active {
+            border-bottom: 2px solid white;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .content .card {
+            background-color: #007bff;
+            color: white;
+            width: 200px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SIJARENG</h1>
+        <div class="profile">
+            <span>Your name</span>
+            <div class="profile-icon">your profile</div>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="#">BERANDA</a>
+        <a href="#">JADWAL</a>
+        <a href="#" class="active">TUGAS</a>
+        <a href="#">PEMBAYARAN</a>
+    </div>
+    <div class="content">
+        <div class="card">MATEMATIKA (UMUM)</div>
+        <div class="card">MATEMATIKA</div>
+        <div class="card">B.INDONESIA</div>
+        <div class="card">B.INGGRIS</div>
+        <div class="card">IPS</div>
+        <div class="card">IPAS</div>
+    </div>
+</body>
+</html>
